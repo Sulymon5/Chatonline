@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="io.pristine:libjingle-11139">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/libjingle-11139.aar/ef0f410e9cfa64bbf67dfae170d033ab/jars/libs/libjingle_peerconnection.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/libjingle-11139.aar/ef0f410e9cfa64bbf67dfae170d033ab/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/libjingle-11139.aar/ef0f410e9cfa64bbf67dfae170d033ab/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.pristine/libjingle/11139/a6f6cb4c981b134bdca2dc3acf470344949d8263/libjingle-11139-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
