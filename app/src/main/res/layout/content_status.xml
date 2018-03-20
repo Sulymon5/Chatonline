@@ -70,7 +70,7 @@
                     android:clickable="true"
                     android:gravity="center"
                     android:padding="10dp"
-                    android:text="@string/icon_edit"
+                    android:text="icon_edit"
                     android:textColor="@color/colorAccent"
                     android:textSize="20sp" />
             </LinearLayout>

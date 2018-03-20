@@ -16,7 +16,7 @@
         android:visibility="gone">
 
         <LinearLayout
-            style="@style/Widget.CardContent"
+            android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
@@ -75,7 +75,6 @@
 
 
         <LinearLayout
-            style="@style/Widget.CardContent"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
@@ -186,7 +185,6 @@
 
 
         <LinearLayout
-            style="@style/Widget.CardContent"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
@@ -258,7 +256,7 @@
                                 android:layout_gravity="center"
                                 android:layout_marginBottom="45dp"
                                 android:gravity="center"
-                                android:text="@string/icon_no_contacts"
+                                android:text="icon_no_contacts"
                                 android:textColor="@color/colorGray2"
                                 android:textSize="90sp" />
 

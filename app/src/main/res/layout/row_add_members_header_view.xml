@@ -11,12 +11,12 @@
     <FrameLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="@dimen/image_member_margin">
+        android:layout_marginLeft="16dp">
 
         <ImageView
             android:id="@+id/user_image"
-            android:layout_width="@dimen/image_profile_width"
-            android:layout_height="@dimen/image_profile_height"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
             android:layout_gravity="center"
             android:contentDescription="@string/new_group" />
 
@@ -42,8 +42,8 @@
         android:id="@+id/username"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="@dimen/image_member_margin"
+        android:layout_marginLeft="16dp"
         android:textColor="@color/colorBlack"
-        android:textSize="@dimen/name_member_size"
+        android:textSize="16dp"
         android:textStyle="bold" />
 </LinearLayout>

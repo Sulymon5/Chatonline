@@ -122,11 +122,8 @@
         <attr name="siStrokeJoin"/>
         <attr name="siStrokeMiter" format="dimension" />
     </declare-styleable>
-</resources>
 
-
-<!--
-<resources>
+    <!-- THE OLD ONE -->
 
     <string-array name="message_font_size_names">
         <item>Small</item>
@@ -167,4 +164,4 @@
 
 
 </resources>
--->
+

@@ -19,13 +19,13 @@
 
         <android.support.v7.widget.AppCompatImageView
             android:id="@+id/imageHeader"
-            android:layout_width="@dimen/image_profile_width"
-            android:layout_height="@dimen/image_profile_height"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
             android:background="@drawable/bg_circle_image_group_holder"
             android:layout_gravity="center"
             android:padding="8dp"
             app:srcCompat="@drawable/ic_group_holder_white_opacity_48dp"
-            android:layout_marginRight="@dimen/image_profile_margin" />
+            android:layout_marginRight="16dp" />
 
         <TextView
             android:id="@+id/username"

@@ -364,19 +364,15 @@
     <string name="title_profile_list">profiles</string>
     <string name="app_service_name" translatable="false">MessageService</string>
     <string name="title_profile_detail">profile Detail</string>
-</resources>
 
 
-<!--
 
-<resources>
-    <string name="app_name" translatable="false" >ChatonX</string>
+<!-- THE OLD STRINGS -->
 
-    <string name="FACEBOOK_APP_ID" translatable="false">put your facebook application id here</string>
-    <string name="ACCOUNT_KIT_CLIENT_TOKEN" translatable="false">put your fb account kit token here </string>
+
 
     <string name="splash_message">This Application allows you to have a real-time chat with your friends ,you can register with your phone number.</string>
-    &lt;!&ndash;don't translate those strings &ndash;&gt;
+    <!--don't translate those strings -->
     <string name="key_message_notifications_settings_light" translatable="false">message_notifications_settings_light</string>
     <string name="key_message_group_notifications_settings_tone" translatable="false">message_group_notifications_settings_tone</string>
     <string name="key_message_group_notifications_settings_vibrate" translatable="false">message_group_notifications_settings_vibrate</string>
@@ -396,10 +392,9 @@
     <string name="user_name_transition" translatable="false">userName</string>
 
 
-    <string name="app_service_name" translatable="false">MessageService</string>
-    &lt;!&ndash;key &ndash;&gt;
+    <!--key -->
 
-    &lt;!&ndash; icons &ndash;&gt;
+    <!-- icons -->
     <string name="icon_no_calls" translatable="false">\ue892</string>
     <string name="icon_crash" translatable="false">\ue7e8</string>
     <string name="icon_no_contacts" translatable="false">\ue892</string>
@@ -413,7 +408,7 @@
     <string name="icon_notification" translatable="false">\ue8aa</string>
     <string name="icon_about" translatable="false">\ue956</string>
     <string name="icon_edit" translatable="false">\ue613</string>
-    &lt;!&ndash; Date format &ndash;&gt;
+    <!-- Date format -->
     <string name="date_format_today"  translatable="false">HH:mm</string>
     <string name="date_format_current_month"  translatable="false">dd-MM-yyyy HH:mm</string>
     <string name="date_format"  translatable="false">dd-MM-yyyy</string>
@@ -422,12 +417,11 @@
     <string name="title_conversations">Chats</string>
     <string name="title_settings">Settings</string>
     <string name="title_feed_back"><![CDATA[Help & About]]></string>
-    <string name="more">More</string>
     <string name="title_sign_out">Log out</string>
     <string name="selected_count">%1$s selected</string>
 
 
-    &lt;!&ndash;end icons &ndash;&gt;
+    <!--end icons -->
 
     <string name="date_format_yesterday" >Yesterday</string>
     <string name="calls_title_tab"  >Calls</string>
@@ -446,20 +440,13 @@
     <string name="error_response_messages">Unable to update messages.</string>
     <string name="name_is_too_short">the name is too short</string>
     <string name="select_picture">select an image</string>
-    <string name="new_group">New group</string>
     <string name="starred_messages">Starred messages</string>
-    <string name="status">Status</string>
-    <string name="settings">Settings</string>
     <string name="refresh_contacts">Refresh</string>
-    <string name="search">Search</string>
-    <string name="add_contact">addContact</string>
     <string name="new_message">New Message</string>
     <string name="use_whats_clone">hey i\'m using …</string>
     <string name="title_activity_add_members_to_group">New group</string>
     <string name="title_activity_settings">Settings</string>
     <string name="title_activity_edit_profile">Profile</string>
-    <string name="share">Share</string>
-    <string name="edit">Edit</string>
     <string name="view_in_ad_book">View in address book</string>
     <string name="hello_welcome_to_whats_clone">Welcome</string>
     <string name="next">NEXT</string>
@@ -472,7 +459,6 @@
     <string name="please_enter_your_ver_code">Please enter your verification code</string>
     <string name="enter_a_val_number">Enter a valid mobile phone</string>
     <string name="change_number">Change number</string>
-    <string name="invite">INVITE</string>
     <string name="your_current_status">Your current status</string>
     <string name="select_your_new_status">Select your new status</string>
     <string name="title_activity_status">Status</string>
@@ -500,17 +486,16 @@
     <string name="exit">Exit</string>
     <string name="shareContact">Share contact</string>
 
-    &lt;!&ndash;socket io &ndash;&gt;
+    <!--socket io -->
     <string name="isTyping">Typing  …</string>
     <string name="isOffline">Offline</string>
     <string name="isOnline">Online</string>
     <string name="lastSeen">Last seen</string>
 
 
-    &lt;!&ndash;end date format&ndash;&gt;
+    <!--end date format-->
     <string name="call">Call</string>
     <string name="attach">Attach</string>
-    <string name="search_">Search …</string>
     <string name="add_new_member">Add</string>
     <string name="type_group_subject_here">Type group subject here …</string>
     <string name="provide_group_subject_and_optional_group_icon">Provide group subject and optional group icon</string>
@@ -523,16 +508,12 @@
     <string name="attach_camera">Camera</string>
     <string name="attach_gallery">Image</string>
     <string name="attach_document">Document</string>
-    <string name="media">Media</string>
-    <string name="clear_chat">Clear Chat</string>
-    <string name="view_contact">View Contact</string>
-    <string name="group_info">Group Info</string>
     <string name="search_hint">Search …</string>
     <string name="alert_message_delete_conversation">Delete chat. Are you sure?</string>
     <string name="join_title">SIGN UP</string>
     <string name="hold_to_record">Hold to record</string>
 
-    &lt;!&ndash; Permissions strings start &ndash;&gt;
+    <!-- Permissions strings start -->
     <string name="camera_permission">Camera Permission</string>
     <string name="audio_permission">Audio Permission</string>
     <string name="storage_permission">Storage Permission</string>
@@ -561,7 +542,7 @@
     <string name="no_thanks">No Thanks</string>
     <string name="yes">Yes</string>
 
-    &lt;!&ndash;Permissions strings end &ndash;&gt;
+    <!--Permissions strings end -->
 
     <string name="deleting_chat">" Deleting Chat … "</string>
     <string name="copy_message">Copy</string>
@@ -569,20 +550,14 @@
     <string name="message_delete">Delete message?</string>
     <string name="message_copy">Text message</string>
 
-    &lt;!&ndash;settings strings&ndash;&gt;
-    <string name="about_and_help">About and Help</string>
-    <string name="contacts">Contacts</string>
+    <!--settings strings-->
     <string name="notifications">Notifications</string>
-    <string name="chats">Chats</string>
-    <string name="account">Account</string>
     <string name="delete_my_account">Delete my account</string>
-    <string name="chat_settings">Chat settings</string>
     <string name="enter_key_off">Enter key will add new line</string>
     <string name="enter_key_on">Enter key will send your message</string>
     <string name="enter_key">Enter key is send</string>
     <string name="message_font_size">Font size</string>
     <string name="message_font_size_summary">Font size for messages</string>
-    <string name="wallpaper">Wallpaper</string>
     <string name="conversation_tones_off">Play sounds for incoming and outgoing messages</string>
     <string name="message_notifications_settings">Message notifications</string>
     <string name="notifications_settings_tone">Notification tone</string>
@@ -612,7 +587,7 @@
     <string name="of">" of "</string>
     <string name="failed_upload_image">"Failed  upload your image "</string>
 
-    &lt;!&ndash;group adapters start &ndash;&gt;
+    <!--group adapters start -->
     <string name="exit_group">Exit \"</string>
     <string name="group_ex">\" group?</string>
     <string name="exiting_group_dialog">" Exiting group … "</string>
@@ -628,21 +603,21 @@
     <string name="adding_member">" Adding member … "</string>
     <string name="failed_to_add_member_to_group">Failed to add member(s) please try again later</string>
     <string name="you">You</string>
-    &lt;!&ndash;group member options start &ndash;&gt;
+    <!--group member options start -->
     <string name="message_group_option">"Message "</string>
     <string name="view_group_option">"View "</string>
     <string name="make_admin_group_option"> an admin</string>
     <string name="make_member_group_option"> member</string>
     <string name="make_group_option"> Make </string>
     <string name="remove_group_option">"Remove "</string>
-    &lt;!&ndash;group member options end &ndash;&gt;
+    <!--group member options end -->
     <string name="remove_from_group">"Remove "</string>
     <string name="from_group">" from group"</string>
     <string name="deleting_group">" Deleting member … "</string>
     <string name="failed_to_make_member_as_admin">Failed to make this member(s) as an admin please try again later</string>
     <string name="failed_to_remove_member">Failed to remove member(s) please try again later</string>
-    &lt;!&ndash;group adapters end &ndash;&gt;
-    &lt;!&ndash;conversations and messages  adapters start&ndash;&gt;
+    <!--group adapters end -->
+    <!--conversations and messages  adapters start-->
     <string name="tap_to_create_group">Tap to create this group</string>
     <string name="you_created_this_group">You created  this group</string>
     <string name="he_created_this_group">" created  this group"</string>
@@ -652,7 +627,7 @@
     <string name="no_application_to_show_image">"No Application Available to  show image "</string>
     <string name="no_application_to_view_pdf">No Application Available to View PDF</string>
     <string name="no_application_to_send_sms">No Application Available to Send SMS</string>
-    &lt;!&ndash;conversations and messages adapters start&ndash;&gt;
+    <!--conversations and messages adapters start-->
     <string name="transfer_message_to">"Transfer  message or Share content to "</string>
     <string name="no_app_to_play_video">"No Application Available to play video "</string>
     <string name="no_app_to_play_audio">"No Application Available to play audio "</string>
@@ -676,7 +651,7 @@
     <string name="delete_you_from_groups"><![CDATA[> Delete you from all groups]]></string>
     <string name="delete_all_your_messages"><![CDATA[> Delete all your messages (you can restore it if you have a backup)]]></string>
     <string name="delete_your_account"><![CDATA[> Deactivate your account]]></string>
-    <string name="deleting_your_account_will">DELETING YOUR ACCOUNT WILL:</string>
+
     <string name="alert_message_delete_account">Are you  sure that you want to delete your account</string>
     <string name="delete_account_failed_please_try_later">Failed to delete your account please try again later</string>
     <string name="unexpected_reponse_from_server">Unexpected response from the server</string>
@@ -691,7 +666,7 @@
     <string name="account_added_already">" Account is added already "</string>
     <string name="you_cannot_delete_your_account_please_contac">You can\'t delete your account for this purpose contact the developer</string>
 
-    &lt;!&ndash;Directories strings&ndash;&gt;
+    <!--Directories strings-->
 
     <string name="profile_photos">Profile Photos</string>
     <string name="images_directory">Images</string>
@@ -710,7 +685,7 @@
     <string name="this_message_empty">This message is empty</string>
     <string name="share_message">Share</string>
     <string name="you_can_share_more_then_one">You can\'t share more than one item</string>
-    &lt;!&ndash;others &ndash;&gt;
+    <!--others -->
     <string name="add_to_you_contact">ADD THIS PERSON TO YOUR CONTACTS </string>
     <string name="status_and_phone">Status and phone</string>
     <string name="failed_to_the_current_status">Failed to get current status</string>
@@ -722,8 +697,6 @@
     <string name="activity_backup_drive_message_restart">Restarting backup</string>
     <string name="restore_data">Restore Data</string>
     <string name="please_click_on_restore_button_to_restore_your_messages">Please click on start button to restore your Messages</string>
-    <string name="backup">Backup</string>
-    <string name="chat_backup">Chat backup</string>
     <string name="back_up_your_messages_you_can_restore_them_when_you_reinstall_the_application">Back up your messages .You can restore them when you reinstall the application.</string>
     <string name="back_up">BACK UP</string>
     <string name="start_backing_up">Start backing up</string>
@@ -732,7 +705,7 @@
     <string name="skip">SKIP</string>
     <string name="finish">Finish</string>
 
-    &lt;!&ndash; Rate Strings &ndash;&gt;
+    <!-- Rate Strings -->
     <string name="rate_title">Rate %s</string>
     <string name="rate_message">If you enjoy using %s, would you mind taking a moment to rate it? Thanks for your support!</string>
     <string name="rate">Yes, Rate %s</string>
@@ -747,16 +720,14 @@
     <string name="please_select_y_country">Please select your country first</string>
     <string name="permission_alert">Permissions Alert</string>
     <string name="permission_alert_msg">You cannot use the application if you didn\'t allow read contacts permission .Thanks</string>
-    &lt;!&ndash;calls strings&ndash;&gt;
+    <!--calls strings-->
     <string name="incoming_call">INCOMING CALL</string>
     <string name="incoming_call_from">Call from</string>
     <string name="call_ended">Call Ended</string>
     <string name="calling">CALLING</string>
     <string name="clear_log_call">Clear log call</string>
-    <string name="new_call">New Call</string>
     <string name="you_couldnt_call_this_user">Couldn\'t place call. This User is not available now please try later</string>
     <string name="fake_name">- - -</string>
-    <string name="mobile">"Mobile: "</string>
     <string name="click_to_make_an_action">Click to Answer/Reject</string>
     <string name="voice_call">VOICE CALL</string>
     <string name="video_call">VIDEO CALL</string>
@@ -801,7 +772,7 @@
     <string name="rusisch">Rusisch</string>
     <string name="slovenisch">Slovenisch</string>
     <string name="title_language">Languages</string>
-    &lt;!&ndash;new strings&ndash;&gt;
+    <!--new strings-->
 
     <string name="you_need_to_restart_the_application">You need to restart the application</string>
     <string name="you_are_using_a_moderate_connection">You are using a moderate connection</string>
@@ -827,11 +798,11 @@
     <string name="signup_terms">By Proceeding you also agree to application’s Terms of Service and
 		Privacy Policy.
 	</string>
-    &lt;!&ndash;new strigns&ndash;&gt;
+    <!--new strigns-->
 
     <string name="invitation_from">Invitation from</string>
     <string name="your_session_expired">Your Session is Expired</string>
-    &lt;!&ndash;new strings&ndash;&gt;
+    <!--new strings-->
     <string name="click_on">Click on </string>
     <string name="to_choose_your_country_n_and_enter_your_phone_number"> to choose your country   and enter your phone number</string>
     <string name="username">Username</string>
@@ -868,4 +839,4 @@
     <string name="delete_group">Delete group</string>
     <string name="participants_prof">Members</string>
 </resources>
--->
+

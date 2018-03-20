@@ -39,7 +39,7 @@
                         android:layout_gravity="center"
                         android:gravity="center"
                         android:padding="16dp"
-                        android:text="@string/icon_no_contacts"
+                        android:text="icon_no_contacts"
                         android:textColor="@color/colorPrimary"
                         android:textSize="50sp" />
 

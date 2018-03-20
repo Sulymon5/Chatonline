@@ -18,6 +18,7 @@ import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Pair;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -25,16 +26,10 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.chatonx.application.app.ChatonxApplication;
-import com.google.android.gms.ads.AdListener;
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdSize;
-import com.google.android.gms.ads.AdView;
-import com.google.android.gms.ads.InterstitialAd;
-import com.google.firebase.iid.FirebaseInstanceId;
 import com.chatonx.application.R;
 import com.chatonx.application.activities.NewConversationContactsActivity;
 import com.chatonx.application.activities.groups.AddMembersToGroupActivity;
@@ -48,6 +43,7 @@ import com.chatonx.application.adapters.others.HomeTabsAdapter;
 import com.chatonx.application.animations.AnimationsUtil;
 import com.chatonx.application.api.APIHelper;
 import com.chatonx.application.app.AppConstants;
+import com.chatonx.application.app.ChatonxApplication;
 import com.chatonx.application.helpers.AppHelper;
 import com.chatonx.application.helpers.Files.backup.RealmBackupRestore;
 import com.chatonx.application.helpers.ForegroundRuning;
@@ -62,6 +58,12 @@ import com.chatonx.application.models.calls.CallsInfoModel;
 import com.chatonx.application.models.calls.CallsModel;
 import com.chatonx.application.models.messages.ConversationsModel;
 import com.chatonx.application.models.users.Pusher;
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdSize;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.InterstitialAd;
+import com.google.firebase.iid.FirebaseInstanceId;
 
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
@@ -99,7 +101,7 @@ public class MainActivity extends AppCompatActivity implements NetworkListener {
     @BindView(R.id.main_view)
     LinearLayout MainView;
 
-    @BindView(R.id.floatingBtnMain)
+    @BindView(R.id.fab)
     FloatingActionButton floatingBtnMain;
 
 
@@ -314,10 +316,11 @@ public class MainActivity extends AppCompatActivity implements NetworkListener {
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
         tabLayout.setTabMode(TabLayout.MODE_FIXED);
         viewPager.setCurrentItem(0);
-        tabLayout.getTabAt(1).setCustomView(R.layout.custom_tab_calls);
-        tabLayout.getTabAt(0).setCustomView(R.layout.custom_tab_messages);
-        tabLayout.getTabAt(1).getCustomView().setBackgroundColor(AppHelper.getColor(this, R.color.colorPrimary));
-        tabLayout.getTabAt(0).getCustomView().setBackgroundColor(AppHelper.getColor(MainActivity.this, R.color.colorPrimary));
+        tabLayout.getTabAt(3).setCustomView(R.layout.custom_tab_calls);
+        tabLayout.getTabAt(1).setCustomView(R.layout.custom_tab_messages);
+        tabLayout.getTabAt(2).setCustomView(R.layout.custom_tab_status);
+        /*tabLayout.getTabAt(1).getCustomView().setBackgroundColor(AppHelper.getColor(this, R.color.colorPrimary));
+        tabLayout.getTabAt(0).getCustomView().setBackgroundColor(AppHelper.getColor(MainActivity.this, R.color.colorPrimary));*/
         ((TextView) findViewById(R.id.title_tabs_calls)).setTextColor(AppHelper.getColor(MainActivity.this, R.color.colorWhite));
         ((TextView) findViewById(R.id.title_tabs_messages)).setTextSize(16);
         tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
@@ -439,6 +442,13 @@ public class MainActivity extends AppCompatActivity implements NetworkListener {
         });
 
 
+    }
+
+    private void setupTabIcons(){
+        ImageView camera = (ImageView) LayoutInflater.from(this).inflate(R.layout.custom_tab_icon, null);
+        camera.setImageResource(R.drawable.ic_camera);
+        tabLayout.getTabAt(0).setCustomView(camera);
+        camera.setMaxWidth(R.dimen.statusbar_size);
     }
 
 

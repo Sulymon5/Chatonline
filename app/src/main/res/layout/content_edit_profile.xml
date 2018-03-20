@@ -94,7 +94,7 @@
                 android:gravity="center"
                 android:padding="10dp"
                 android:transitionName="settingsHead"
-                android:text="@string/icon_edit"
+                android:text="icon_edit"
                 android:textColor="@color/colorAccent"
                 android:textSize="20sp" />
 

@@ -1000,7 +1000,7 @@
 
         </android.support.v7.widget.CardView>
 
-       <com.chatonx.application.ui.FlexLayout
+       <!--<com.chatonx.application.ui.FlexLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="end|bottom"
@@ -1060,7 +1060,7 @@
                     android:layout_marginRight="2dp"
                     android:visibility="visible" />
             </LinearLayout>
-        </com.chatonx.application.ui.FlexLayout>
+        </com.chatonx.application.ui.FlexLayout> -->
 
     </LinearLayout>
 </LinearLayout>

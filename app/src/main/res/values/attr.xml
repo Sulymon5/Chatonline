@@ -15,10 +15,7 @@
         <attr name="buttonColor" format="color" />
     </declare-styleable>
 
-</resources>
 
-<!--
-<resources>
     <declare-styleable name="FlowLayout">
         <attr name="android:gravity" />
     </declare-styleable>
@@ -33,4 +30,4 @@
     </declare-styleable>
 
 </resources>
--->
+
