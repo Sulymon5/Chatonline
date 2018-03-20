@@ -24,8 +24,8 @@
 
         <FrameLayout
             android:id="@+id/cameraBtn"
-            android:layout_width="@dimen/slide_down_message_items"
-            android:layout_height="@dimen/slide_down_message_items"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
             android:background="@drawable/bg_item_round_ripple">
 
             <ImageView
@@ -58,8 +58,8 @@
 
         <FrameLayout
             android:id="@+id/galleryBtn"
-            android:layout_width="@dimen/slide_down_message_items"
-            android:layout_height="@dimen/slide_down_message_items"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
             android:background="@drawable/bg_item_round_ripple">
 
             <ImageView

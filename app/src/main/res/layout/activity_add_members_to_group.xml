@@ -37,7 +37,7 @@
         android:layout_gravity="center"
         android:layout_marginLeft="@dimen/view_margin_left"
         android:layout_marginRight="@dimen/view_margin_right"
-        android:background="@color/colorGray3" />
+        android:background="@color/grey_200" />
 
     <FrameLayout
         android:id="@+id/frame_container"

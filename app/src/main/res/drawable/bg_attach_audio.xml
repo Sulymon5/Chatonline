@@ -2,6 +2,6 @@
     android:shape="oval">
     <gradient
         android:angle="90"
-        android:endColor="@color/colorAttachAudioEnd"
-        android:startColor="@color/colorAttachAudioStart" />
+        android:endColor="@color/blue_grey"
+        android:startColor="@color/blue" />
 </shape>

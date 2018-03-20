@@ -4,7 +4,7 @@
     <item android:state_pressed="false">
         <shape android:padding="10dp" android:shape="rectangle">
             <corners android:radius="16dp" />
-            <solid android:color="@color/colorBlackLightCustomToast" />
+            <solid android:color="@color/black_overlay" />
         </shape>
     </item>
 

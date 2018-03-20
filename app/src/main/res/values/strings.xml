@@ -1,12 +1,382 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name" translatable="false">ChatonX</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="admob_ad_unit">ca-app-pub-5100425050048880/3458555452</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="FACEBOOK_APP_ID" translatable="false">put your facebook application id here</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN" translatable="false">put your fb account kit token here </string>
+
+    <!-- About App -->
+    <string name="full_app_name">ChatonX Messenger</string>
+    <string name="version">Version 1.0</string>
+    <string name="copyright">c 2010–2018 Success Drives Inc.</string>
+    <string name="rights_reserved">All rights reserved.</string>
+    <string name="licenses">LICENCES</string>
+
+
+    <string name="send">SEND</string>
+    <string name="about_and_help">About and Help</string>
+    <string name="profile">Profile</string>
+
+    <!-- Settings related strings -->
+    <string name="chats">Chats</string>
+    <string name="chat_settings">Chat settings</string>
+    <string name="notif">Notifications</string>
+    <string name="about">About and help</string>
+    <string name="appInfo">App Info</string>
+    <string name="help">Help</string>
+    <string name="account">Account</string>
+    <string name="imageTransition">Image Transition</string>
+    <string name="fag">FAQ</string>
+    <string name="data">Data usage</string>
+    <string name="contacts">Contacts</string>
+    <string name="contact_us">Contact us</string>
+    <string name="terms">Terms and Privacy Policy</string>
+    <string name="license">Licenses</string>
+    <string name="privacy">Privacy</string>
+    <string name="security">Security</string>
+    <string name="two_step">Two-Step Verification</string>
+    <string name="change_num">Change number</string>
+    <string name="need_help">Questions? Need help?</string>
+    <string name="delete_account">Delete my account</string>
+    <string name="system_status">System Status</string>
+    <string name="search_">Search…</string>
+
+    <string name="label_error_incorrect_phone">Incorrect phone</string>
+
+    <!-- Menu Items and others related strings -->
+    <string name="search">Search</string>
+    <string name="media">Media</string>
+    <string name="clear_chat">Clear chat</string>
+    <string name="email_chat">Email chat</string>
+    <string name="add_shortcut">Add shortcut</string>
+    <string name="view_contact">View Contact</string>
+    <string name="new_chat">New chat</string>
+    <string name="new_call">New call</string>
+    <string name="call_info">Call Info</string>
+    <string name="new_group">New group</string>
+    <string name="new_contact">New contact</string>
+    <string name="new_broadcast">New broadcast</string>
+    <string name="web">Chatup Web</string>
+    <string name="add_contact">Add Contact</string>
+    <string name="starred">Starred messages</string>
+    <string name="status">Status</string>
+    <string name="settings">Settings</string>
+    <string name="block">Block</string>
+    <string name="remove_call_log">Remove from call log</string>
+    <string name="clear">Clear call log</string>
+    <string name="status_privacy">Status Privacy</string>
+    <string name="chat">Chat</string>
+    <string name="refresh">Refresh</string>
+    <string name="invite">INVITE</string>
+    <string name="more">More</string>
+
+    <string name="share">Share</string>
+    <string name="edit">Edit</string>
+    <string name="address_book">View in address book</string>
+    <string name="security_code">Verify security code</string>
+
+    <string name="none_selected">None selected</string>
+    <string name="back_up_over">Back up over</string>
+
+    <string name="mobile">Mobile</string>
+    <string name="yesterday">YESTERDAY</string>
+    <string name="wallpaper">Wallpaper</string>
+    <string name="chat_backup">Chat backup</string>
+    <string name="chat_history">Chat history</string>
+    <string name="starred_text">Tap and hold on any message in any chat to star it, so you can easily find it later.</string>
+
+    <string name="encrypt">Encryption</string>
+    <string name="encrypt_text">Message you send to this chat and calls are secured with end-to-end encryption. Tap to verify.</string>
+
+
+    <!-- Notifications Settings related strings -->
+    <string name="conver_tones">Conversation tones</string>
+    <string name="message_notif">Message notifications</string>
+    <string name="notif_tone">Notification tone</string>
+    <string name="contact_tone">Contact ringtone</string>
+    <string name="groups_notif">Group notifications</string>
+    <string name="call_notif">Call notifications</string>
+    <string name="ringtone">Ringtone</string>
+    <string name="play_sounds">Play sounds for incoming and outgoing messages</string>
+    <string name="default_tone">Default ringtone (Pixie Dust)</string>
+    <string name="default_text">Default</string>
+    <string name="only_when_on">Only when screen "on"</string>
+    <string name="no_popup">No popup</string>
+    <string name="not_available">Not available. Set custom notifications by tapping the name at the of a chat.</string>
+
+    <!-- Data Usage Settings related strings -->
+    <string name="network_usage">Network usage</string>
+    <string name="auto_download">Media auto-download</string>
+    <string name="when_using_mobile">When using mobile data</string>
+    <string name="when_using_wifi">When connected on Wi-Fi</string>
+    <string name="when_roaming">When roaming</string>
+    <string name="data_note">NOTE: Voice messages are always automatically downloaded for the best communication experience</string>
+    <string name="call_settings">Call settings</string>
+    <string name="low_data">Low data usage</string>
+    <string name="low_data_mess">Lower the amount of data used during a Chatup call</string>
+    <string name="images">Images</string>
+    <string name="all_media">All media</string>
+    <string name="no_media">No media</string>
+
+
+    <!-- Contacts Settings related strings -->
+    <string name="invite_friend">Invite a friend</string>
+    <string name="show_contacts">Show all contacts</string>
+    <string name="enable_hidden_contacts">Enable to also use hidden contacts</string>
+
+
+    <!-- Change Number -->
+    <string name="text1">Changing you phone number will migrate your account info, groups, and settings.</string>
+    <string name="text2">Before proceeding, please confirm that you are able to receive SMS or calls at your new number.</string>
+    <string name="text3">If you have both a new phone and a new number, first cchange your number on your old phone.</string>
+
+
+    <!-- Backup Items -->
+    <string name="last_backup">Last BackUp</string>
+    <string name="backup">BACK UP</string>
+    <string name="local">Local: 20:20</string>
+    <string name="google_drive">Google Drive: Never</string>
+    <string name="size">Size: 99MB</string>
+    <string name="backup_mess">Back up your messages and media to Google Drive. You can restore them when you reinstall ChatUp. Your messages and media will also back up to your phones SD card.</string>
+    <string name="google_drive_settings">Google Drive Settings</string>-->
+    <string name="back_up_to_google">Back up to Google Drive</string>
+    <string name="backup_over">Back up over</string>
+    <string name="include_videos">Include videos</string>
+    <string name="wifi_cellular">Wi-fi or Cellular</string>
+    <string name="wifi_only">Wi-fi</string>
+    <string name="choose_an_account">Choose an account</string>
+    <string name="med_email1">ayelasites@gamil.com</string>
+    <string name="med_email2">ayelaasibi@gmail.com</string>
+    <string name="save_fail">Unable to save image</string>
+    <string name="set_wallpaper">Set as Wallpaper</string>
+    <string name="only_contacts_with">Only contacts with +233 23 300 7320 in their address book will receive your broadcast messages.</string>
+
+    <!-- Privacy Settings related strings -->
+    <string name="who_can_see_my">Who can see my personal info</string>
+    <string name="who_can_see_status">Who can see your status updates</string>
+    <string name="my_contacts">My contacts</string>
+    <string name="my_contacts_except">My contacts except…</string>
+    <string name="only_share_with">Only share with…</string>
+    <string name="changes_wont_affect">Changes to your privacy wont affect status updates that you ve sent already</string>
+    <string name="last_seen">Last seen</string>
+    <string name="profile_photo">Profile photo</string>
+    <string name="messaging">Messaging</string>
+    <string name="blocked_contacts">Blocked contacts</string>
+    <string name="read_receipts">Read receipts</string>
+    <string name="everyone">Everyone</string>
+    <string name="blocked_note">List of contacts that you have blocked.</string>
+    <string name="status_note">If you dont share your Last Seen, you wont be able to see other peoples Last Seen</string>
+    <string name="receipt_note">If you turn off read receipts, you wont be able to see read receipts from other people. Read receipts are always sent for group chats.</string>
+
+
+    <string name="group_info">Group info</string>
+    <string name="group_media">Group media</string>
+    <string name="mute">Mute</string>
+
+    <string name="no_upload_data">0KB to be uploaded</string>
+
+    <string name="deleting_your_account_will">DELETING YOUR ACCOUNT WILL:</string>
+    <string name="delete_your_account_from">Delete your account from ChatUp</string>
+    <string name="erase_mess_history">Erase your message history</string>
+    <string name="delete_you_from">Delete you from all of your ChatUp groups</string>
+    <string name="change_num_instead">Want to change number instead?</string>
+    <string name="to_delete_your_account">To delete your account, confirm your country code and enter your phone number.</string>
+
+
+    <string name="important">IMPORTANT:</string>
+    <string name="type_message">Type a message</string>
+    <string name="font_size">Font size: Medium</string>
+    <string name="font_mess">Font size for chat screen</string>
+    <string name="enter_send">Enter is send</string>
+    <string name="enter_mess">Enter key will send your message</string>
+    <string name="type_c_name">Type contact name…</string>
+    <string name="type_subject">Type group subject here…</string>
+    <string name="group_text">Please provide group subject and optional group icon</string>
+    <string name="add_broadcast">ADD BROADCAST LIST RECEIPIENTS</string>
+    <string name="add_participants">ADD GROUP PARTICIPANTS</string>
+    <string name="important_text">Only contacts with +233 54 406 9752 in their address book will receive your broadcast messages.</string>
+
+    <string name="my_status">My Status</string>
+    <string name="add_status">tap to add status update</string>
+    <string name="med_country">Ghana</string>
+    <string name="med_code">+233</string>
+    <string name="med_name">Cindy Carter</string>
+    <string name="med_about">Hey there!  am William Wilson. Am from Ghana. Am a Web Designer/ Developer, Android  Developer, Graphic designer etc. I am from Accra, Ghana.</string>
+    <string name="med_mobile">+233 54 406 9752</string>
+    <string name="not_username">This is not your username or pin. This name will be visible to your ChatUp contacts.</string>
+    <string name="med_Mess">Hey bruh! this app is really good</string>
+    <string name="med_date">May 30, 17:23</string>
+    <string name="med_status">Hey there! I am using ChatUp.</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_demo_settings">Settings</string>
+
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+
+    <!-- Array strings for Vibrate Notifications settings-->
+    <string name="vibrate_notif">Vibrate</string>
+    <string-array name="pref_vibrate_list_titles">
+        <item>Off</item>
+        <item>Default</item>
+        <item>Short</item>
+        <item>Long</item>
+    </string-array>
+    <string-array name="pref_vibrate_list_values">
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Array strings for Popup Notifications settings-->
+    <string name="popup_notif">Popup notification</string>
+    <string-array name="pref_popup_list_titles">
+        <item>No Popup</item>
+        <item>Only when screen "on"</item>
+        <item>Only when screen "off"</item>
+        <item>Always show popup</item>
+    </string-array>
+    <string-array name="pref_popup_list_values">
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Array strings for Backup to Google Drive settings-->
+    <string-array name="backup_to_google_drive_list_titles">
+        <item>Never</item>
+        <item>Only when I tap "Back up"</item>
+        <item>Daily</item>
+        <item>Weekly</item>
+        <item>Monthly</item>
+    </string-array>
+    <string-array name="backup_to_google_list_values">
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Array strings for Chat Backup Account settings-->
+    <string-array name="account_list_titles">
+        <item>ayelaasibi@gmail.com</item>
+        <item>ayelaasibi@gmail.com</item>
+    </string-array>
+    <string-array name="account_list_values">
+        <item>1</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Array strings for Chat Backup Data settings-->
+    <string-array name="backup_over_list_titles">
+        <item>Wi-fi</item>
+        <item>Wi-fi or Cellular</item>
+    </string-array>
+    <string-array name="backup_over_list_values">
+        <item>1</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Array strings for Notifications Light settings-->
+    <string name="light">Light</string>
+    <string-array name="pref_light_list_titles">
+        <item>None</item>
+        <item>White</item>
+        <item>Red</item>
+        <item>Yello</item>
+        <item>Green</item>
+        <item>Cyan</item>
+        <item>Blue</item>
+        <item>Purple</item>
+    </string-array>
+    <string-array name="pref_light_list_values">
+        <item>7</item>
+        <item>6</item>
+        <item>5</item>
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Array strings for Data Usage (Media)-->
+    <string-array name="pref_media_data_usage_titles">
+        <item>Images</item>
+        <item>Audio</item>
+        <item>Videos</item>
+        <item>Documentation</item>
+    </string-array>
+    <string-array name="pref_media_data_usage_values">
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Array strings for Privacy Personal Info-->
+    <string-array name="pref_privacy_info_titles">
+        <item>Everyone</item>
+        <item>My contacts</item>
+        <item>Nobody</item>
+    </string-array>
+    <string-array name="pref_privacy_info_values">
+        <item>2</item>
+        <item>1</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="title_activity_chat_backup">Chat backup</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="title_profile_list">profiles</string>
+    <string name="app_service_name" translatable="false">MessageService</string>
+    <string name="title_profile_detail">profile Detail</string>
+</resources>
+
+
+<!--
+
+<resources>
     <string name="app_name" translatable="false" >ChatonX</string>
 
     <string name="FACEBOOK_APP_ID" translatable="false">put your facebook application id here</string>
     <string name="ACCOUNT_KIT_CLIENT_TOKEN" translatable="false">put your fb account kit token here </string>
 
     <string name="splash_message">This Application allows you to have a real-time chat with your friends ,you can register with your phone number.</string>
-    <!--don't translate those strings -->
+    &lt;!&ndash;don't translate those strings &ndash;&gt;
     <string name="key_message_notifications_settings_light" translatable="false">message_notifications_settings_light</string>
     <string name="key_message_group_notifications_settings_tone" translatable="false">message_group_notifications_settings_tone</string>
     <string name="key_message_group_notifications_settings_vibrate" translatable="false">message_group_notifications_settings_vibrate</string>
@@ -27,9 +397,9 @@
 
 
     <string name="app_service_name" translatable="false">MessageService</string>
-    <!--key -->
+    &lt;!&ndash;key &ndash;&gt;
 
-    <!-- icons -->
+    &lt;!&ndash; icons &ndash;&gt;
     <string name="icon_no_calls" translatable="false">\ue892</string>
     <string name="icon_crash" translatable="false">\ue7e8</string>
     <string name="icon_no_contacts" translatable="false">\ue892</string>
@@ -43,7 +413,7 @@
     <string name="icon_notification" translatable="false">\ue8aa</string>
     <string name="icon_about" translatable="false">\ue956</string>
     <string name="icon_edit" translatable="false">\ue613</string>
-    <!-- Date format -->
+    &lt;!&ndash; Date format &ndash;&gt;
     <string name="date_format_today"  translatable="false">HH:mm</string>
     <string name="date_format_current_month"  translatable="false">dd-MM-yyyy HH:mm</string>
     <string name="date_format"  translatable="false">dd-MM-yyyy</string>
@@ -57,7 +427,7 @@
     <string name="selected_count">%1$s selected</string>
 
 
-    <!--end icons -->
+    &lt;!&ndash;end icons &ndash;&gt;
 
     <string name="date_format_yesterday" >Yesterday</string>
     <string name="calls_title_tab"  >Calls</string>
@@ -97,7 +467,7 @@
     <string name="set_back_and_keep_calm_you_will_receive_an_sms_of_verification_kit">Set back and keep calm </string>
     <string name="resend">You didn\'t receive any code? Resend</string>
     <string name="enter_the_code_below_to_verify">Enter the code below to verify</string>
-    <string name="enter_your_code">-- -- -- -- -- --</string>
+    <string name="enter_your_code">&#45;&#45; &#45;&#45; &#45;&#45; &#45;&#45; &#45;&#45; &#45;&#45;</string>
     <string name="ok">OK</string>
     <string name="please_enter_your_ver_code">Please enter your verification code</string>
     <string name="enter_a_val_number">Enter a valid mobile phone</string>
@@ -130,14 +500,14 @@
     <string name="exit">Exit</string>
     <string name="shareContact">Share contact</string>
 
-    <!--socket io -->
+    &lt;!&ndash;socket io &ndash;&gt;
     <string name="isTyping">Typing  …</string>
     <string name="isOffline">Offline</string>
     <string name="isOnline">Online</string>
     <string name="lastSeen">Last seen</string>
 
 
-    <!--end date format-->
+    &lt;!&ndash;end date format&ndash;&gt;
     <string name="call">Call</string>
     <string name="attach">Attach</string>
     <string name="search_">Search …</string>
@@ -162,7 +532,7 @@
     <string name="join_title">SIGN UP</string>
     <string name="hold_to_record">Hold to record</string>
 
-    <!-- Permissions strings start -->
+    &lt;!&ndash; Permissions strings start &ndash;&gt;
     <string name="camera_permission">Camera Permission</string>
     <string name="audio_permission">Audio Permission</string>
     <string name="storage_permission">Storage Permission</string>
@@ -191,7 +561,7 @@
     <string name="no_thanks">No Thanks</string>
     <string name="yes">Yes</string>
 
-    <!--Permissions strings end -->
+    &lt;!&ndash;Permissions strings end &ndash;&gt;
 
     <string name="deleting_chat">" Deleting Chat … "</string>
     <string name="copy_message">Copy</string>
@@ -199,7 +569,7 @@
     <string name="message_delete">Delete message?</string>
     <string name="message_copy">Text message</string>
 
-    <!--settings strings-->
+    &lt;!&ndash;settings strings&ndash;&gt;
     <string name="about_and_help">About and Help</string>
     <string name="contacts">Contacts</string>
     <string name="notifications">Notifications</string>
@@ -242,7 +612,7 @@
     <string name="of">" of "</string>
     <string name="failed_upload_image">"Failed  upload your image "</string>
 
-    <!--group adapters start -->
+    &lt;!&ndash;group adapters start &ndash;&gt;
     <string name="exit_group">Exit \"</string>
     <string name="group_ex">\" group?</string>
     <string name="exiting_group_dialog">" Exiting group … "</string>
@@ -258,21 +628,21 @@
     <string name="adding_member">" Adding member … "</string>
     <string name="failed_to_add_member_to_group">Failed to add member(s) please try again later</string>
     <string name="you">You</string>
-    <!--group member options start -->
+    &lt;!&ndash;group member options start &ndash;&gt;
     <string name="message_group_option">"Message "</string>
     <string name="view_group_option">"View "</string>
     <string name="make_admin_group_option"> an admin</string>
     <string name="make_member_group_option"> member</string>
     <string name="make_group_option"> Make </string>
     <string name="remove_group_option">"Remove "</string>
-    <!--group member options end -->
+    &lt;!&ndash;group member options end &ndash;&gt;
     <string name="remove_from_group">"Remove "</string>
     <string name="from_group">" from group"</string>
     <string name="deleting_group">" Deleting member … "</string>
     <string name="failed_to_make_member_as_admin">Failed to make this member(s) as an admin please try again later</string>
     <string name="failed_to_remove_member">Failed to remove member(s) please try again later</string>
-    <!--group adapters end -->
-    <!--conversations and messages  adapters start-->
+    &lt;!&ndash;group adapters end &ndash;&gt;
+    &lt;!&ndash;conversations and messages  adapters start&ndash;&gt;
     <string name="tap_to_create_group">Tap to create this group</string>
     <string name="you_created_this_group">You created  this group</string>
     <string name="he_created_this_group">" created  this group"</string>
@@ -282,7 +652,7 @@
     <string name="no_application_to_show_image">"No Application Available to  show image "</string>
     <string name="no_application_to_view_pdf">No Application Available to View PDF</string>
     <string name="no_application_to_send_sms">No Application Available to Send SMS</string>
-    <!--conversations and messages adapters start-->
+    &lt;!&ndash;conversations and messages adapters start&ndash;&gt;
     <string name="transfer_message_to">"Transfer  message or Share content to "</string>
     <string name="no_app_to_play_video">"No Application Available to play video "</string>
     <string name="no_app_to_play_audio">"No Application Available to play audio "</string>
@@ -321,7 +691,7 @@
     <string name="account_added_already">" Account is added already "</string>
     <string name="you_cannot_delete_your_account_please_contac">You can\'t delete your account for this purpose contact the developer</string>
 
-    <!--Directories strings-->
+    &lt;!&ndash;Directories strings&ndash;&gt;
 
     <string name="profile_photos">Profile Photos</string>
     <string name="images_directory">Images</string>
@@ -340,7 +710,7 @@
     <string name="this_message_empty">This message is empty</string>
     <string name="share_message">Share</string>
     <string name="you_can_share_more_then_one">You can\'t share more than one item</string>
-    <!--others -->
+    &lt;!&ndash;others &ndash;&gt;
     <string name="add_to_you_contact">ADD THIS PERSON TO YOUR CONTACTS </string>
     <string name="status_and_phone">Status and phone</string>
     <string name="failed_to_the_current_status">Failed to get current status</string>
@@ -362,7 +732,7 @@
     <string name="skip">SKIP</string>
     <string name="finish">Finish</string>
 
-    <!-- Rate Strings -->
+    &lt;!&ndash; Rate Strings &ndash;&gt;
     <string name="rate_title">Rate %s</string>
     <string name="rate_message">If you enjoy using %s, would you mind taking a moment to rate it? Thanks for your support!</string>
     <string name="rate">Yes, Rate %s</string>
@@ -377,7 +747,7 @@
     <string name="please_select_y_country">Please select your country first</string>
     <string name="permission_alert">Permissions Alert</string>
     <string name="permission_alert_msg">You cannot use the application if you didn\'t allow read contacts permission .Thanks</string>
-    <!--calls strings-->
+    &lt;!&ndash;calls strings&ndash;&gt;
     <string name="incoming_call">INCOMING CALL</string>
     <string name="incoming_call_from">Call from</string>
     <string name="call_ended">Call Ended</string>
@@ -431,7 +801,7 @@
     <string name="rusisch">Rusisch</string>
     <string name="slovenisch">Slovenisch</string>
     <string name="title_language">Languages</string>
-    <!--new strings-->
+    &lt;!&ndash;new strings&ndash;&gt;
 
     <string name="you_need_to_restart_the_application">You need to restart the application</string>
     <string name="you_are_using_a_moderate_connection">You are using a moderate connection</string>
@@ -457,11 +827,11 @@
     <string name="signup_terms">By Proceeding you also agree to application’s Terms of Service and
 		Privacy Policy.
 	</string>
-    <!--new strigns-->
+    &lt;!&ndash;new strigns&ndash;&gt;
 
     <string name="invitation_from">Invitation from</string>
     <string name="your_session_expired">Your Session is Expired</string>
-    <!--new strings-->
+    &lt;!&ndash;new strings&ndash;&gt;
     <string name="click_on">Click on </string>
     <string name="to_choose_your_country_n_and_enter_your_phone_number"> to choose your country   and enter your phone number</string>
     <string name="username">Username</string>
@@ -498,3 +868,4 @@
     <string name="delete_group">Delete group</string>
     <string name="participants_prof">Members</string>
 </resources>
+-->

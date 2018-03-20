@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorWhite"
+    android:background="@color/white"
     android:orientation="vertical">
 
     <LinearLayout
@@ -36,7 +36,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@color/colorWhite"
+            android:background="@color/white"
             android:orientation="vertical">
 
 
@@ -53,7 +53,7 @@
 
             <Button
                 android:id="@+id/backup_drive_button_backup"
-                style="@style/ButtonsBackup"
+                style="@style/ThemeOverlay.AppCompat.Dark"
                 android:layout_width="150dp"
                 android:layout_height="30dp"
                 android:layout_gravity="center"
@@ -65,7 +65,7 @@
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:background="@color/colorGrayLight" />
+                android:background="@color/grey_100" />
 
             <LinearLayout
                 android:id="@+id/backup_drive_button_folder"
@@ -82,7 +82,7 @@
                     android:layout_marginLeft="16dp"
                     android:layout_marginTop="8dp"
                     android:text="@string/backup_drive_folder"
-                    android:textColor="@color/colorBlack"
+                    android:textColor="@color/black"
                     android:textStyle="bold" />
 
                 <TextView
@@ -98,7 +98,7 @@
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:background="@color/colorGrayLight" />
+                android:background="@color/grey_200" />
 
 
 
@@ -108,7 +108,7 @@
                 android:layout_margin="16dp"
                 android:text="@string/backup_drive_recent"
                 android:textAllCaps="true"
-                android:textColor="@color/colorBlack"
+                android:textColor="@color/black"
                 android:textStyle="bold" />
 
             <android.support.v7.widget.RecyclerView

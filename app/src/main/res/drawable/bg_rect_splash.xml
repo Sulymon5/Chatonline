@@ -1,4 +1,4 @@
 <shape xmlns:android="http://schemas.android.com/apk/res/android"
        android:shape="rectangle">
-	<solid android:color="@color/colorMaize"/>
+	<solid android:color="@color/rate_helper_button_start_color"/>
 </shape>

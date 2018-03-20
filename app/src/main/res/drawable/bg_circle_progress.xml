@@ -4,5 +4,5 @@
     android:shape="ring"
     android:thickness="3.8sp"
     android:useLevel="true">
-    <solid android:color="@color/colorGreenProgressBars" />
+    <solid android:color="@color/green" />
 </shape>

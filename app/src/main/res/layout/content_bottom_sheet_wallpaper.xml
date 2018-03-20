@@ -20,8 +20,8 @@
 
         <FrameLayout
             android:id="@+id/defaultBtn"
-            android:layout_width="@dimen/slide_down_message_items"
-            android:layout_height="@dimen/slide_down_message_items"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
             android:layout_gravity="center"
             android:background="@drawable/bg_item_round_ripple"
             android:clickable="true">
@@ -57,8 +57,8 @@
 
         <FrameLayout
             android:id="@+id/galleryBtn"
-            android:layout_width="@dimen/slide_down_message_items"
-            android:layout_height="@dimen/slide_down_message_items"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
             android:layout_gravity="center"
             android:background="@drawable/bg_item_round_ripple"
             android:clickable="true">

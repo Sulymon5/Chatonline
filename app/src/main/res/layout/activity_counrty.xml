@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_gravity="center"
-        android:background="@color/colorWhite"
+        android:background="@color/white"
         android:baselineAligned="false"
         android:gravity="center"
         android:minHeight="?attr/actionBarSize"
@@ -72,7 +72,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/search_view_layout_v"
-        android:background="@color/colorWhite"
+        android:background="@color/white"
         android:scrollbars="none"
         tools:listitem="@layout/row_countries" />
 

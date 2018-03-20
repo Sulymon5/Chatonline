@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorWhite"
+    android:background="@color/white"
     android:orientation="vertical">
 
     <LinearLayout
@@ -20,7 +20,7 @@
             android:layout_weight="1"
             android:gravity="center"
             android:text="@string/chat_backup"
-            android:textColor="@color/colorWhite"
+            android:textColor="@color/white"
             android:textSize="20sp" />
 
         <android.support.v7.widget.AppCompatTextView
@@ -32,7 +32,7 @@
             android:gravity="center"
             android:padding="16dp"
             android:text="@string/skip"
-            android:textColor="@color/colorWhite"
+            android:textColor="@color/white"
             android:textStyle="bold" />
 
 
@@ -48,13 +48,13 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@color/colorWhite"
+            android:background="@color/white"
             android:orientation="vertical">
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:background="@color/colorGrayLight" />
+                android:background="@color/grey_200" />
 
             <LinearLayout
                 android:id="@+id/backup_drive_button_folder"
@@ -69,7 +69,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="16dp"
                     android:text="@string/backup_drive_folder"
-                    android:textColor="@color/colorBlack"
+                    android:textColor="@color/black"
                     android:textStyle="bold" />
 
                 <TextView
@@ -85,7 +85,7 @@
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:background="@color/colorGrayLight" />
+                android:background="@color/grey_200" />
 
 
             <TextView
@@ -94,7 +94,7 @@
                 android:layout_margin="16dp"
                 android:text="@string/backup_drive_recent"
                 android:textAllCaps="true"
-                android:textColor="@color/colorBlack"
+                android:textColor="@color/black"
                 android:textStyle="bold" />
 
             <android.support.v7.widget.RecyclerView

@@ -15,7 +15,7 @@
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/colorWhite">
+        android:background="@color/white">
 
 
         <LinearLayout
@@ -38,8 +38,8 @@
                     android:orientation="vertical">
 
                     <android.support.v7.widget.AppCompatImageView
-                        android:layout_width="@dimen/empty_state_size"
-                        android:layout_height="@dimen/empty_state_size"
+                        android:layout_width="@dimen/com_accountkit_spacer_normal"
+                        android:layout_height="@dimen/com_accountkit_agreement_text_margin_bottom"
                         android:layout_gravity="center"
                         android:gravity="center"
                         android:src="@drawable/ic_empty" />
@@ -50,7 +50,7 @@
                         android:layout_gravity="center"
                         android:gravity="center"
                         android:text="@string/NoResult"
-                        android:textColor="@color/colorGray2"
+                        android:textColor="@color/grey_200"
                         android:textSize="13sp" />
                 </LinearLayout>
             </ScrollView>

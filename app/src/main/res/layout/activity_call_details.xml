@@ -31,8 +31,8 @@
 
             <ImageView
                 android:id="@+id/user_image"
-                android:layout_width="@dimen/image_profile_width"
-                android:layout_height="@dimen/image_profile_height"
+                android:layout_width="@dimen/activity_vertical_margin"
+                android:layout_height="@dimen/activity_vertical_margin"
                 android:layout_gravity="center"
                 android:layout_margin="10dp" />
 
@@ -45,7 +45,7 @@
                 android:layout_margin="16dp"
                 android:layout_weight="1"
                 android:gravity="left|center"
-                android:textColor="@color/colorBlack"
+                android:textColor="@color/black"
                 android:textSize="@dimen/text_size"
                 android:textStyle="bold" />
 
@@ -55,7 +55,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginBottom="2dp"
                 android:layout_marginTop="2dp"
-                android:background="@color/colorGrayLighter" />
+                android:background="@color/grey_200" />
 
             <FrameLayout
                 android:layout_width="wrap_content"
@@ -117,7 +117,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="0.5dp"
                 android:layout_gravity="center"
-                android:background="@color/colorGrayLighter" />
+                android:background="@color/grey_200" />
 
             <android.support.v7.widget.RecyclerView
                 android:id="@+id/CallsDetailsList"

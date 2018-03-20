@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:background="@color/colorWhite"
+    android:background="@color/white"
     android:layout_height="match_parent"
     android:orientation="vertical">
 
@@ -27,7 +27,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
             android:text="@string/terms_and_privacy_policy"
-            android:textColor="@color/colorBlack"
+            android:textColor="@color/black"
             android:textSize="16sp" />
 
         <View
@@ -36,7 +36,7 @@
             android:layout_gravity="bottom"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
-            android:background="@color/colorGray" />
+            android:background="@color/grey_100" />
     </LinearLayout>
 
     <LinearLayout
@@ -54,7 +54,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
             android:text="@string/about_title"
-            android:textColor="@color/colorBlack"
+            android:textColor="@color/black"
             android:textSize="16sp" />
 
         <View
@@ -63,7 +63,7 @@
             android:layout_gravity="bottom"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
-            android:background="@color/colorGray" />
+            android:background="@color/grey_200" />
     </LinearLayout>
 
     <LinearLayout
@@ -81,7 +81,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
             android:text="@string/title_language"
-            android:textColor="@color/colorBlack"
+            android:textColor="@color/black"
             android:textSize="16sp" />
 
         <View
@@ -90,6 +90,6 @@
             android:layout_gravity="bottom"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
-            android:background="@color/colorGray" />
+            android:background="@color/grey_200" />
     </LinearLayout>
 </LinearLayout>

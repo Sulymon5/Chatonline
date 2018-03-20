@@ -88,8 +88,7 @@
 
         <activity
             android:name="com.facebook.accountkit.ui.AccountKitActivity"
-            android:theme="@style/AppLoginTheme"
-            tools:replace="android:theme" />
+             />
 
         <meta-data
             android:name="com.google.android.gms.version"
@@ -104,7 +103,7 @@
             android:configChanges="locale"
             android:noHistory="true"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar">
+            >
         <!--    <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -115,7 +114,6 @@
             android:name="com.chatonx.application.activities.main.welcome.CompleteRegistrationActivity"
             android:configChanges="orientation|keyboardHidden|screenSize|locale"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="adjustResize|stateHidden" />
 
         <!-- WelcomeActivity -->
@@ -123,7 +121,6 @@
             android:name="com.chatonx.application.activities.main.welcome.WelcomeActivity"
             android:configChanges="orientation|keyboardHidden|screenSize|locale"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="adjustResize|stateHidden" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -183,7 +180,7 @@
             android:name="com.chatonx.application.activities.images.TempActivity"
             android:configChanges="locale"
             android:screenOrientation="portrait"
-            android:theme="@style/Theme.AppCompat.Translucent" />
+             />
         <!-- BackupActivity -->
         <activity
             android:name="com.chatonx.application.activities.settings.BackupActivity"
@@ -375,7 +372,6 @@
             android:name="com.chatonx.application.activities.profile.EditProfileActivity"
             android:configChanges="orientation|keyboardHidden|screenSize|locale"
             android:label="@string/title_activity_edit_profile"
-            android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="adjustResize|stateHidden" />
 
         <!-- StatusActivity -->

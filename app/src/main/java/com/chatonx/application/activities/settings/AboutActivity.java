@@ -24,8 +24,6 @@ public class AboutActivity extends AppCompatActivity {
 
     @BindView(R.id.version)
     TextView version;
-    @BindView(R.id.about_enjoy_it)
-    TextView aboutEnjoyIt;
     @BindView(R.id.about_app_name)
     TextView appName;
 
@@ -43,7 +41,6 @@ public class AboutActivity extends AppCompatActivity {
     private void setTypeFaces() {
         if (AppConstants.ENABLE_FONTS_TYPES) {
             version.setTypeface(AppHelper.setTypeFace(this, "Futura"));
-            aboutEnjoyIt.setTypeface(AppHelper.setTypeFace(this, "Futura"));
             appName.setTypeface(AppHelper.setTypeFace(this, "Futura"));
         }
     }

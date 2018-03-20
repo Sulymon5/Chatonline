@@ -41,7 +41,7 @@
                     android:layout_height="wrap_content"
                     android:padding="6dp"
                     android:text="@string/deleting_your_account_will"
-                    android:textColor="@color/colorRedDark"
+                    android:textColor="@color/red"
                     android:textSize="16sp"
                     android:textStyle="bold" />
 
@@ -90,7 +90,7 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:padding="16dp"
-                android:textColor="@color/colorWhite"
+                android:textColor="@color/white"
                 android:visibility="gone" />
 
 
@@ -116,7 +116,7 @@
             android:id="@+id/numberPhone_layout"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@color/colorWhite"
+            android:background="@color/white"
             android:orientation="vertical"
             android:visibility="visible">
 
@@ -150,7 +150,7 @@
                                 android:layout_height="wrap_content"
                                 android:padding="6dp"
                                 android:text="@string/deleting_your_account_will"
-                                android:textColor="@color/colorRedDark"
+                                android:textColor="@color/red"
                                 android:textSize="16sp"
                                 android:textStyle="bold" />
 
@@ -200,7 +200,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_margin="6dp"
                                 android:gravity="center"
-                                android:textColor="@color/colorMaize"
+                                android:textColor="@color/amber"
                                 android:textSize="18sp"
                                 android:textStyle="bold" />
 
@@ -247,7 +247,7 @@
                                     android:layout_marginLeft="2dp"
                                     android:layout_marginRight="2dp"
                                     android:layout_weight="1"
-                                    android:background="@color/colorWhite"
+                                    android:background="@color/white"
                                     android:hint="@string/number"
                                     android:inputType="phone" />
                             </LinearLayout>
@@ -264,7 +264,7 @@
                                 android:gravity="center"
                                 android:padding="16dp"
                                 android:text="@string/next"
-                                android:textColor="@color/colorWhite" />
+                                android:textColor="@color/white" />
 
 
                             <com.chatonx.application.ui.CustomProgressView
@@ -288,7 +288,7 @@
             android:id="@+id/layout_verification"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@color/colorWhite"
+            android:background="@color/white"
             android:orientation="vertical"
             android:visibility="visible">
 
@@ -363,7 +363,7 @@
                                 android:layout_gravity="center"
                                 android:layout_marginLeft="16dp"
                                 android:layout_marginRight="16dp"
-                                android:background="@color/colorGray" />
+                                android:background="@color/grey_200" />
                         </LinearLayout>
 
                         <TextView

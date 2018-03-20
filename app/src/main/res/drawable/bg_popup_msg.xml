@@ -5,11 +5,11 @@
 
             <gradient
                 android:angle="45"
-                android:centerColor="@color/colorMsgBg"
-                android:endColor="@color/colorWhite"
-                android:startColor="@color/colorMsgBg" />
+                android:centerColor="@color/colorActiveSmall"
+                android:endColor="@color/blue_grey"
+                android:startColor="@color/icons" />
             <corners android:radius="20dp" />
-            <stroke android:width="0.3dp" android:color="@color/colorGrayLighter" />
+            <stroke android:width="0.3dp" android:color="@color/common_google_signin_btn_text_dark_pressed" />
         </shape>
     </item>
 </selector>

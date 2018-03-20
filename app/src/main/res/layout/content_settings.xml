@@ -55,7 +55,7 @@
                     android:clickable="true"
                     android:gravity="center"
                     android:padding="10dp"
-                    android:text="@string/icon_edit"
+                    android:text="icon_edit"
                     android:textColor="@color/colorAccent"
                     android:textSize="20sp" />
 
@@ -112,7 +112,7 @@
                         android:clickable="true"
                         android:gravity="center"
                         android:padding="16dp"
-                        android:text="@string/icon_settings"
+                        android:text="icon_settings"
                         android:textColor="@color/colorAccent"
                         android:textSize="20sp" />
 
@@ -156,7 +156,7 @@
                         android:clickable="true"
                         android:gravity="center"
                         android:padding="16dp"
-                        android:text="@string/icon_chat"
+                        android:text="icon_chat"
                         android:textColor="@color/colorAccent"
                         android:textSize="20sp" />
 
@@ -198,7 +198,7 @@
                         android:clickable="true"
                         android:gravity="center"
                         android:padding="16dp"
-                        android:text="@string/icon_notification"
+                        android:text="icon_notification"
                         android:textColor="@color/colorAccent"
                         android:textSize="20sp" />
 
@@ -241,7 +241,7 @@
                         android:clickable="true"
                         android:gravity="center"
                         android:padding="16dp"
-                        android:text="@string/icon_about"
+                        android:text="icon_about"
                         android:textColor="@color/colorAccent"
                         android:textSize="20sp" />
 

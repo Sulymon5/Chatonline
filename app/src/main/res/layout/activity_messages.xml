@@ -91,7 +91,7 @@
                             android:paddingLeft="6dp"
                             android:scrollHorizontally="true"
                             android:singleLine="true"
-                            android:textColor="@color/colorWhite"
+                            android:textColor="@color/white"
                             android:textSize="16sp"
                             emojicon:emojiconAlignment="baseline"
                             emojicon:emojiconSize="22sp"
@@ -105,7 +105,7 @@
                             android:layout_marginLeft="2dp"
                             android:gravity="left|center"
                             android:paddingLeft="6dp"
-                            android:textColor="@color/colorWhite"
+                            android:textColor="@color/white"
                             android:textSize="12sp"
                             android:visibility="gone" />
                     </LinearLayout>
@@ -134,7 +134,7 @@
                         android:background="?attr/selectableItemBackgroundBorderless"
                         android:gravity="center"
                         android:text="@string/unblock_user"
-                        android:textColor="@color/colorWhite"
+                        android:textColor="@color/white"
                         android:visibility="gone" />
 
                     <TextView
@@ -145,7 +145,7 @@
                         android:background="?attr/selectableItemBackgroundBorderless"
                         android:gravity="center"
                         android:text="@string/block_user"
-                        android:textColor="@color/colorWhite"
+                        android:textColor="@color/white"
                         android:visibility="gone" />
                 </FrameLayout>
 
@@ -158,7 +158,7 @@
                     android:background="?attr/selectableItemBackgroundBorderless"
                     android:gravity="center"
                     android:text="@string/add_to_you_contact"
-                    android:textColor="@color/colorWhite"
+                    android:textColor="@color/white"
                     android:visibility="gone" />
             </LinearLayout>
 
@@ -232,7 +232,7 @@
                     android:id="@+id/groupSend"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@color/colorWhite"
+                    android:background="@color/white"
                     android:gravity="center"
                     android:orientation="horizontal"
                     android:visibility="gone">
@@ -309,13 +309,13 @@
                                 android:layout_marginBottom="6dp"
                                 android:layout_marginTop="6dp"
                                 android:layout_weight="1"
-                                android:background="@color/colorWhite"
+                                android:background="@color/white"
                                 android:hint="@string/type_msg"
                                 android:imeOptions="actionSend"
                                 android:inputType="text"
                                 android:padding="6dp"
-                                android:textColor="@color/colorBlack"
-                                android:textColorHint="@color/colorGray2"
+                                android:textColor="@color/black"
+                                android:textColorHint="@color/grey_200"
                                 android:textSize="16sp"
                                 emojicon:emojiconSize="30sp" />
 
@@ -352,7 +352,7 @@
                                     android:layout_gravity="center_vertical"
                                     android:layout_marginLeft="6dp"
                                     android:layout_marginRight="6dp"
-                                    android:textColor="@color/colorRedDark"
+                                    android:textColor="@color/red"
                                     android:textSize="18sp" />
                             </LinearLayout>
 
@@ -360,7 +360,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center_vertical"
-                                android:background="@color/colorWhite"
+                                android:background="@color/white"
                                 android:orientation="horizontal"
                                 android:paddingLeft="13dp">
 
@@ -379,7 +379,7 @@
                                     android:layout_gravity="center_vertical"
                                     android:layout_marginLeft="6dp"
                                     android:text="0:00"
-                                    android:textColor="@color/colorBlack"
+                                    android:textColor="@color/black"
                                     android:textSize="20sp" />
                             </LinearLayout>
                         </com.chatonx.application.ui.FrameLayoutFixed>
@@ -437,8 +437,8 @@
 
 
                     <FrameLayout
-                        android:layout_width="@dimen/slide_down_message_items"
-                        android:layout_height="@dimen/slide_down_message_items"
+                        android:layout_width="@dimen/card_margin"
+                        android:layout_height="@dimen/com_accountkit_content_margin_start"
                         android:layout_margin="6dp"
                         android:background="@drawable/bg_attach_camera">
 
@@ -453,8 +453,8 @@
                     </FrameLayout>
 
                     <FrameLayout
-                        android:layout_width="@dimen/slide_down_message_items"
-                        android:layout_height="@dimen/slide_down_message_items"
+                        android:layout_width="@dimen/com_accountkit_agreement_text_size"
+                        android:layout_height="@dimen/com_accountkit_agreement_text_margin_top"
                         android:layout_gravity="center"
                         android:layout_margin="6dp"
                         android:background="@drawable/bg_attach_location">
@@ -471,8 +471,8 @@
 
 
                     <FrameLayout
-                        android:layout_width="@dimen/slide_down_message_items"
-                        android:layout_height="@dimen/slide_down_message_items"
+                        android:layout_width="@dimen/com_accountkit_content_margin_end"
+                        android:layout_height="@dimen/com_accountkit_content_margin_bottom"
                         android:layout_margin="6dp"
                         android:background="@drawable/bg_attach_document">
 
@@ -488,8 +488,8 @@
 
 
                     <FrameLayout
-                        android:layout_width="@dimen/slide_down_message_items"
-                        android:layout_height="@dimen/slide_down_message_items"
+                        android:layout_width="@dimen/com_accountkit_agreement_text_margin_bottom"
+                        android:layout_height="@dimen/com_accountkit_input_text_padding_bottom"
                         android:layout_margin="6dp"
                         android:background="@drawable/bg_attach_gallery">
 
@@ -505,8 +505,8 @@
 
 
                     <FrameLayout
-                        android:layout_width="@dimen/slide_down_message_items"
-                        android:layout_height="@dimen/slide_down_message_items"
+                        android:layout_width="@dimen/com_accountkit_country_code_text_size"
+                        android:layout_height="@dimen/com_accountkit_content_min_height"
                         android:layout_margin="6dp"
                         android:background="@drawable/bg_attach_audio">
 
@@ -522,8 +522,8 @@
 
 
                     <FrameLayout
-                        android:layout_width="@dimen/slide_down_message_items"
-                        android:layout_height="@dimen/slide_down_message_items"
+                        android:layout_width="@dimen/com_accountkit_content_max_width"
+                        android:layout_height="@dimen/com_accountkit_input_text_size"
                         android:layout_margin="6dp"
                         android:background="@drawable/bg_attach_contact">
 

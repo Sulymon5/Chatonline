@@ -20,15 +20,15 @@
         android:orientation="horizontal">
 
         <FrameLayout
-            android:layout_width="@dimen/image_profile_width"
-            android:layout_height="@dimen/image_profile_height"
+            android:layout_width="@dimen/cardview_default_radius"
+            android:layout_height="@dimen/com_accountkit_button_text_size"
             android:layout_marginLeft="16dp"
             android:layout_marginTop="16dp">
 
             <ImageView
                 android:id="@+id/group_image"
-                android:layout_width="@dimen/image_profile_width"
-                android:layout_height="@dimen/image_profile_height"
+                android:layout_width="@dimen/bottom_ellipsis_height"
+                android:layout_height="@dimen/activity_horizontal_margin"
                 android:background="@drawable/bg_circle_image_holder" />
 
             <ImageView
@@ -58,7 +58,7 @@
                 android:layout_weight="1"
                 android:hint="@string/type_group_subject_here"
                 android:inputType="textMultiLine|textAutoCorrect|textCapSentences"
-                android:textColor="@color/colorBlack"
+                android:textColor="@color/black"
                 android:textSize="15sp" />
 
             <ImageView
@@ -86,7 +86,7 @@
                 android:layout_marginRight="16dp"
                 android:gravity="left"
                 android:text="@string/provide_group_subject_and_optional_group_icon"
-                android:textColor="@color/colorGray2"
+                android:textColor="@color/grey_200"
                 android:textSize="13sp"
                 android:textStyle="normal" />
 
@@ -99,13 +99,13 @@
                 android:layout_marginRight="@dimen/fab_margin"
                 app:elevation="2dp"
                 app:fabSize="auto"
-                app:rippleColor="@color/colorWhiteLight"
+                app:rippleColor="@color/white"
                 app:srcCompat="@drawable/ic_done_24dp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/colorGray"
+                android:background="@color/grey_200"
                 android:orientation="horizontal">
 
                 <TextView
@@ -117,8 +117,8 @@
                     android:layout_marginTop="16dp"
                     android:layout_weight="1"
                     android:text="Participants : 1/256"
-                    android:textColor="@color/colorGray2"
-                    android:textSize="@dimen/name_member_size"
+                    android:textColor="@color/grey_200"
+                    android:textSize="@dimen/com_accountkit_icon_container_padding_top"
                     android:textStyle="bold" />
 
             </LinearLayout>
